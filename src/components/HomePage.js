@@ -7,7 +7,6 @@ import Item from './Item';
 
 export default function HomePage() {
   const { location } = useSelector((store) => store.location);
-  console.log(location)
   return (
     <div className="home-container">
       <Navigation />

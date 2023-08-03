@@ -6,16 +6,11 @@ import DetailsPage from './components/DetailsPage';
 import HomePage from './components/HomePage';
 
 function App() {
-  console.log('read');
   const dispatch = useDispatch();
   const { isLoading } = useSelector((store) => store.location);
-  console.log(isLoading);
   useEffect(() => {
     dispatch(getLocation('London'));
-    console.log('selam');
   }, [dispatch]);
-
-  console.log('addis');
 
   if (isLoading) {
     return (
@@ -25,7 +20,6 @@ function App() {
     );
   }
   if (!isLoading) {
-    console.log('again');
     return (
       <div className="App">
         <Routes>

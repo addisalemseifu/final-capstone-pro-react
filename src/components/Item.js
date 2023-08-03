@@ -6,7 +6,6 @@ export default function Item({
   // eslint-disable-next-line react/prop-types
   date, sunrise, sunset, id,
 }) {
-  console.log(date,sunrise,sunset,id);
   return (
     <div className="item-container">
 

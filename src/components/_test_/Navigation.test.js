@@ -1,10 +1,8 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
-import renderer from 'react-test-renderer';
 import { screen, fireEvent } from '@testing-library/react';
-import { BrowserRouter as Router, MemoryRouter } from 'react-router-dom';
 import Navigation from '../Navigation';
-import { renderWithProviders } from "../utils/utils-for-tests";
+import { renderWithProviders } from '../utils/utils-for-tests';
 
 describe('Navigation Component', () => {
 //   it('renders correctly without unexpected changes', () => {

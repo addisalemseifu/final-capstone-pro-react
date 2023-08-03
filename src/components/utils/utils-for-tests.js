@@ -5,23 +5,25 @@ import { Provider } from 'react-redux';
 // As a basic setup, import your same slice reducers
 import locationReducer from '../../redux/location/locationSlice';
 
+// eslint-disable-next-line import/prefer-default-export
 export function renderWithProviders(
   ui,
   {
     preloadedState = {
-      location: {location:{"name":'addis'}},
+      location: { location: { name: 'addis' } },
       isLoading: true,
     },
     // Automatically create a store instance if no store was passed in
     store = configureStore({
-        reducer: {
-            location: locationReducer,
-          },
+      reducer: {
+        location: locationReducer,
+      },
       preloadedState,
     }),
     ...renderOptions
   } = {},
 ) {
+  // eslint-disable-next-line react/prop-types
   function Wrapper({ children }) {
     return <Provider store={store}>{children}</Provider>;
   }
