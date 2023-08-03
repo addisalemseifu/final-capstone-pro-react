@@ -1,20 +1,16 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { screen, fireEvent } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import Navigation from '../Navigation';
 import { renderWithProviders } from '../utils/utils-for-tests';
 
 describe('Navigation Component', () => {
-//   it('renders correctly without unexpected changes', () => {
-//     const navigation = renderer
-//       .create(
-//         <Router>
-//           <Navigation />
-//         </Router>,
-//       )
-//       .toJSON();
-//     expect(navigation).toMatchSnapshot();
-//   });
+  it('renders correctly without unexpected changes', () => {
+    const navigation = renderer.create;
+
+    expect(navigation).toMatchSnapshot();
+  });
 
   it('renders the search button', async () => {
     renderWithProviders(<Navigation />);

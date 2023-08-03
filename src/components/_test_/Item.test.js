@@ -1,21 +1,17 @@
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import { screen } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import { BrowserRouter as MemoryRouter } from 'react-router-dom';
 import Item from '../Item';
 import { renderWithProviders } from '../utils/utils-for-tests';
 
 describe('Item Component', () => {
-//   it('renders correctly without unexpected changes', () => {
-//     const navigation = renderer
-//       .create(
-//         <Router>
-//           <Navigation />
-//         </Router>,
-//       )
-//       .toJSON();
-//     expect(navigation).toMatchSnapshot();
-//   });
+  it('renders correctly without unexpected changes', () => {
+    const item = renderer.create;
+
+    expect(item).toMatchSnapshot();
+  });
 
   it('renders the forcasts date header', async () => {
     renderWithProviders(<MemoryRouter><Item /></MemoryRouter>);

@@ -37,17 +37,6 @@ Variables
 }
 
 body {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
   background-color: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -248,28 +237,6 @@ Home Page
 ===============
 */
 
-.top-box {
-  display: grid;
-  background-color: rgb(222, 101, 165);
-}
-
-.loc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-.lat {
-  color: #fff;
-  margin-top: auto;
-  margin-left: 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .lat-long {
   display: flex;
   flex-direction: column;
@@ -280,12 +247,7 @@ Home Page
   width: 5rem;
 }
 
-.charactor {
-  display: flex;
-  margin-top: 1.2rem;
-}
-
-.stat-numerics{
+.stat-numerics {
   display: grid;
   grid-template-columns: auto auto;
   background-color: rgb(195, 89, 145);
@@ -295,11 +257,11 @@ Home Page
 /* .item-container:nth-child(1st) {
   background-color: rgb(231, 69, 69);
 } */
-.item-container:nth-child(2){
+.item-container:nth-child(2) {
   background-color: rgb(195, 89, 145);
 }
 
-.item-container:nth-child(3){
+.item-container:nth-child(3) {
   background-color: rgb(195, 89, 145);
 }
 
@@ -325,18 +287,20 @@ Detail Page
 
 .top-box {
   border: 1px solid rgb(255, 0, 106);
-  display: flex;
   align-items: center;
   padding-left: 5rem;
   border-radius: 1rem;
+  display: grid;
+  background-color: rgb(222, 101, 165);
 }
 
 .loc {
+  margin-right: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 10rem;
+  color: #fff;
 }
 
 .loc h3 {
@@ -347,7 +311,12 @@ Detail Page
 }
 
 .lat {
+  color: #fff;
+  margin-top: auto;
+  margin-left: 1rem;
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .temp {
@@ -365,6 +334,7 @@ Detail Page
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 1.2rem;
 }
 
 .stat-cont {
@@ -412,8 +382,6 @@ Detail Page
   height: 50%;
 }
 
-
-
 .stat {
   background-color: rgb(195, 89, 145);
   width: 100%;
@@ -452,7 +420,6 @@ Detail Page
 .time-container:nth-child(even) {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
   background-color: rgb(181, 82, 135);
   padding: 1rem 2rem;
 }
