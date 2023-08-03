@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://weather-app-9u1m.onrender.com)
+- [Live Demo Link](https://weather-app-9u1m.onrender.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
