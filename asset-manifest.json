@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/addisalemseifu/final-capstone-pro-react.git/static/css/main.3daed057.css",
+    "main.js": "/addisalemseifu/final-capstone-pro-react.git/static/js/main.fb5c5090.js",
+    "index.html": "/addisalemseifu/final-capstone-pro-react.git/index.html",
+    "main.3daed057.css.map": "/addisalemseifu/final-capstone-pro-react.git/static/css/main.3daed057.css.map",
+    "main.fb5c5090.js.map": "/addisalemseifu/final-capstone-pro-react.git/static/js/main.fb5c5090.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3daed057.css",
+    "static/js/main.fb5c5090.js"
+  ]
+}
