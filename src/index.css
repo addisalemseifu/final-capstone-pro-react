@@ -389,7 +389,7 @@ Detail Page
   display: flex;
   font-family: var(--font-mont);
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding: 0.5rem;
   border: 1px solid #b3d8f4;
 }
