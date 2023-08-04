@@ -4,7 +4,7 @@
 <div align="center">
     <br/>
 
- # Space-Traveler
+ # final-capstone-pro-react
 
 </div>
 
@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Space-Traveler] <a name="about-project"></a>
+# 📖 [Weather-App] <a name="about-project"></a>
 
 "Weather-App" is a web application that allows users to search any city in the world and automatically find out all the weather information about that specific city. The appliction is also capable of displaying a weather prdiction for the comming 3 days. In addition to that the user can also get a detailed weather information for the hall 24 hours of the day.
 
@@ -70,6 +70,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Video Presentation -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Video Presentation](https://weather-app-9u1m.onrender.com/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -89,7 +98,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 <br>
 
-git clone hhttps://github.com/addisalemseifu/final-capstone-pro-react.git
+git clone https://github.com/addisalemseifu/final-capstone-pro-react.git
 <br>
 
 cd `final-capstone-pro-react.git`
@@ -168,8 +177,9 @@ If you like this project give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to acknowledge and give credit to Microverse and all the Microverse community.
+- I would like to acknowledge and give credit to Microverse and all the Microverse community.
 
+-I would also like to give creadit to the owner of the original design Nelson Sakwa [https://www.behance.net/sakwadesignstudio]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
